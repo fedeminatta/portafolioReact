@@ -1,0 +1,55 @@
+@import './variables.sass'
+
+.form
+    background: $bg-secondary
+    display: flex
+    flex-flow: row wrap
+    padding: 40px
+    gap: 40px
+    justify-content: center
+    align-items: center
+    font-weight: 600
+    input,textarea
+        width: 100%
+        background: $bg-primary
+        border: none
+        padding: 10px
+        border-radius: 6px
+        color: #f8f8f8
+        transition: transform .3s, box-shadow .3s
+        border: none
+        outline: none
+        &:focus, &:hover
+            transform: translateY(-2px)
+            box-shadow: -3px 3px 0px $text-primary
+    fieldset
+        display: block
+        border: 2px solid $text-primary
+        border-radius: 6px
+        color: $text-primary
+        width: 400px
+        max-width: 100%
+    legend
+        color: $text-secondary
+        padding: 0 10px
+    textarea
+        height: 100px
+        width: 100%
+        resize: none
+    .textarea
+        width: 100%
+    button
+        width: 300px
+        height: 60px
+        background: $text-secondary
+        color: $bg-primary
+        border: none
+        padding: 10px
+        border-radius: 8px
+        cursor: pointer
+        transition: transform .3s, box-shadow .3s
+        font-weight: 900
+        border: 5px solid $bg-primary
+        &:hover
+            transform: translateY(-5px)
+            box-shadow: -8px 8px 0px $bg-primary
