@@ -14,6 +14,7 @@ const Projects = () => {
             titulo={proyecto.titulo}
             descripcion={proyecto.descripcion}
             img={proyecto.img}
+            url={proyecto.url}
           />
         ))}
       </section>

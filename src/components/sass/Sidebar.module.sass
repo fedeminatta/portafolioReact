@@ -1,0 +1,25 @@
+@import './variables'
+
+.aside
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 20px
+    position: fixed
+    right: 0
+    top: 0
+    height: 100vh
+    width: 5%
+    z-index: 2
+    gap: 30px
+    background: $bg-primary
+    a
+        text-decoration: none
+        color: $text-secondary
+        width: 25px
+        img
+            transition: transform .3s
+            width: 25px
+            &:hover
+                transform: scale(1.4)

@@ -2,7 +2,7 @@ import styles from './sass/Contact.module.sass';
 
 const Contact = () => {
   return (
-    <form netlify="true" className={styles.form}>
+    <form netlify="true" className={styles.form} id="Contact">
       <fieldset>
         <legend>Asunto</legend>
         <input type="text" name="aunto" />

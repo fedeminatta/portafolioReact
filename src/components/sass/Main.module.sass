@@ -1,7 +1,9 @@
 @import './variables.sass'
 
 .main
-    padding: 20px
+    width: 100%
+    margin: 0 auto
+    padding: 30px
     padding-top: 0
     opacity: 1
     z-index: 1
@@ -10,6 +12,8 @@
     display: flex
     flex-direction: column
     align-content: center
+    max-height: 1000px
+    overflow-y: auto
     h2
         display: inline-block
         text-align: center
@@ -24,5 +28,5 @@
         display: flex
         flex-flow: row wrap
         justify-content: center
-        align-items: center
+        align-items: flex-start
         gap: 30px
