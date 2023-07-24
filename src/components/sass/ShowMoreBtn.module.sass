@@ -1,0 +1,18 @@
+@import './variables'
+
+.showMoreBtn
+    width: 300px
+    height: 60px
+    background: $text-secondary
+    color: $bg-primary
+    border: none
+    padding: 10px
+    border-radius: 8px
+    cursor: pointer
+    transition: transform .3s, box-shadow .3s
+    font-weight: 900
+    border: 5px solid $bg-primary
+    margin: 20px auto
+    &:hover
+        transform: translateY(-5px)
+        box-shadow: -8px 8px 0px $text-secondary, -11px 11px 0px $bg-primary
