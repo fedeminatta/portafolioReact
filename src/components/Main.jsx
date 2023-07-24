@@ -14,7 +14,7 @@ const Projects = () => {
         className={styles.main}
         id="Main"
         style={{
-          maxHeight: `${showMore == true ? 'none' : '880px'}`,
+          maxHeight: `${showMore == true ? 'none' : '980px'}`,
         }}
       >
         <h2>Proyectos</h2>
