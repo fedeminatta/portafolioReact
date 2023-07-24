@@ -3,15 +3,15 @@ import styles from './sass/Contact.module.sass';
 const Contact = () => {
   return (
     <form
-      netlify="true"
       method="POST"
       data-netlify="true"
       className={styles.form}
       id="Contact"
+      name="contact"
     >
       <fieldset>
         <legend>Asunto</legend>
-        <input type="text" name="aunto" />
+        <input type="text" name="asunto" />
       </fieldset>
       <fieldset>
         <legend>Correo</legend>
