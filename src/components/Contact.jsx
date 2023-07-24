@@ -21,7 +21,7 @@ const Contact = () => {
         <legend>Mensaje</legend>
         <textarea name="mensaje"></textarea>
       </fieldset>
-      <div data-netlify-recaptcha="true"></div>
+      {/* <div data-netlify-recaptcha="true"></div> */}
       <button type="submit">Enviar</button>
     </form>
   );
