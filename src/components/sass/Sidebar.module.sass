@@ -1,16 +1,17 @@
 @import './variables'
 
 .aside
+    box-sizing: content-box
     display: flex
     flex-direction: column
     justify-content: center
     align-items: center
-    padding: 20px
     position: fixed
     right: 0
     top: 0
     height: 100vh
     width: 5%
+    padding: 8px
     z-index: 2
     gap: 30px
     background: $bg-primary
@@ -23,3 +24,7 @@
             width: 25px
             &:hover
                 transform: scale(1.4)
+
+@media screen and (max-width: 900px)
+    .aside
+        width: 8%
