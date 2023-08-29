@@ -5,19 +5,19 @@ import ahorcado from '../img/trabajos/ahorcado.webp';
 import autos from '../img/trabajos/autos.webp';
 import carritoComidas from '../img/trabajos/carritoComidas.webp';
 import crm from '../img/trabajos/crm.webp';
-import cryptos from '../img/trabajos/cryptos.webp';
-import flexbox from '../img/trabajos/flexbox.webp';
 import formCompras from '../img/trabajos/formCompras.webp';
-import gastoSemanal from '../img/trabajos/gasto-semanal.webp';
 import gastosReact from '../img/trabajos/gastosReact.webp';
-import hojas from '../img/trabajos/hojas.webp';
-import monedas from '../img/trabajos/monedas.webp';
 import notasReact from '../img/trabajos/notasReact.webp';
 import piedra from '../img/trabajos/piedra.webp';
 import restaurant from '../img/trabajos/restaurant.webp';
-import sumaResta from '../img/trabajos/suma-resta.webp';
 import veterinariaJS from '../img/trabajos/veterinariaJS.webp';
 import veterinariaReact from '../img/trabajos/veterinariaReact.webp';
+// import flexbox from '../img/trabajos/flexbox.webp';
+// import cryptos from '../img/trabajos/cryptos.webp';
+// import gastoSemanal from '../img/trabajos/gasto-semanal.webp';
+// import sumaResta from '../img/trabajos/suma-resta.webp';
+// import hojas from '../img/trabajos/hojas.webp';
+// import monedas from '../img/trabajos/monedas.webp';
 // img
 
 const proyectos = [
@@ -79,13 +79,13 @@ const proyectos = [
     img: ahorcado,
     url: 'https://ahorcado-mf.netlify.app/',
   },
-  {
-    id: nanoid(),
-    titulo: 'Cotizador de Cryptos',
-    descripcion: 'HTML - CSS - React - JavaScript',
-    img: cryptos,
-    url: 'https://cryptos-mf.netlify.app/',
-  },
+  // {
+  //   id: nanoid(),
+  //   titulo: 'Cotizador de Cryptos',
+  //   descripcion: 'HTML - CSS - React - JavaScript',
+  //   img: cryptos,
+  //   url: 'https://cryptos-mf.netlify.app/',
+  // },
   {
     id: nanoid(),
     titulo: 'ADM de Veterinaria JS',
@@ -93,13 +93,13 @@ const proyectos = [
     img: veterinariaJS,
     url: 'https://veterinaria-mf.netlify.app/',
   },
-  {
-    id: nanoid(),
-    titulo: 'Gasto Semanal JS',
-    descripcion: 'HTML - CSS - Bootstrap - JavaScript',
-    img: gastoSemanal,
-    url: 'https://gasto-semanal-mf.netlify.app/',
-  },
+  // {
+  //   id: nanoid(),
+  //   titulo: 'Gasto Semanal JS',
+  //   descripcion: 'HTML - CSS - Bootstrap - JavaScript',
+  //   img: gastoSemanal,
+  //   url: 'https://gasto-semanal-mf.netlify.app/',
+  // },
   {
     id: nanoid(),
     titulo: 'Filtrador de Autos',
@@ -122,34 +122,34 @@ const proyectos = [
     img: formCompras,
     url: 'https://formulario-compras-mf.netlify.app/',
   },
-  {
-    id: nanoid(),
-    titulo: 'Apuntes de Flexbox CSS',
-    descripcion: 'HTML - SASS',
-    img: flexbox,
-    url: 'https://flexbox-mf.netlify.app/',
-  },
-  {
-    id: nanoid(),
-    titulo: 'Juego de Apuestas',
-    descripcion: 'HTML - SASS - JavaScript',
-    img: monedas,
-    url: 'https://monedas-mf.netlify.app/',
-  },
-  {
-    id: nanoid(),
-    titulo: 'Sumas y Restas',
-    descripcion: 'HTML - SASS - JavaScript',
-    img: sumaResta,
-    url: 'https://suma-resta-mf.netlify.app/',
-  },
-  {
-    id: nanoid(),
-    titulo: 'Página de Plantas',
-    descripcion: 'HTML - SASS',
-    img: hojas,
-    url: 'https://plantas-mf.netlify.app/',
-  },
+  // {
+  //   id: nanoid(),
+  //   titulo: 'Apuntes de Flexbox CSS',
+  //   descripcion: 'HTML - SASS',
+  //   img: flexbox,
+  //   url: 'https://flexbox-mf.netlify.app/',
+  // },
+  // {
+  //   id: nanoid(),
+  //   titulo: 'Juego de Apuestas',
+  //   descripcion: 'HTML - SASS - JavaScript',
+  //   img: monedas,
+  //   url: 'https://monedas-mf.netlify.app/',
+  // },
+  // {
+  //   id: nanoid(),
+  //   titulo: 'Sumas y Restas',
+  //   descripcion: 'HTML - SASS - JavaScript',
+  //   img: sumaResta,
+  //   url: 'https://suma-resta-mf.netlify.app/',
+  // },
+  // {
+  //   id: nanoid(),
+  //   titulo: 'Página de Plantas',
+  //   descripcion: 'HTML - SASS',
+  //   img: hojas,
+  //   url: 'https://plantas-mf.netlify.app/',
+  // },
 ];
 
 export default proyectos;

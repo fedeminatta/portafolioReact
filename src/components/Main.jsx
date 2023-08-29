@@ -4,6 +4,7 @@ import ShowMoreBtn from './ShowMoreBtn';
 import proyectos from './proyectos';
 
 import { useState } from 'react';
+import { Bounce } from 'react-awesome-reveal';
 
 const Projects = () => {
   const [showMore, setShowMore] = useState(false);
@@ -19,15 +20,17 @@ const Projects = () => {
       >
         <h2>Proyectos</h2>
         <section>
-          {proyectos.map((proyecto) => (
-            <Project
-              key={proyecto.id}
-              titulo={proyecto.titulo}
-              descripcion={proyecto.descripcion}
-              img={proyecto.img}
-              url={proyecto.url}
-            />
-          ))}
+          <Bounce cascade damping={0.2} duration={800} triggerOnce>
+            {proyectos.map((proyecto) => (
+              <Project
+                key={proyecto.id}
+                titulo={proyecto.titulo}
+                descripcion={proyecto.descripcion}
+                img={proyecto.img}
+                url={proyecto.url}
+              />
+            ))}
+          </Bounce>
         </section>
       </main>
 

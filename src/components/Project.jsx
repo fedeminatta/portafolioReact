@@ -7,7 +7,7 @@ const Project = ({ titulo, descripcion, img, url }) => {
       <img src={img} alt={titulo} />
       <section className={styles.section}>
         <h4>{titulo}</h4>
-        <a href={url} target="_blank">
+        <a href={url} target="_blank" rel="noreferrer">
           <img src={enlaceImg}></img>
         </a>
         <p>{descripcion}</p>
