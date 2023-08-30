@@ -5,7 +5,7 @@ import ahorcado from '../img/trabajos/ahorcado.webp';
 import autos from '../img/trabajos/autos.webp';
 import carritoComidas from '../img/trabajos/carritoComidas.webp';
 import crm from '../img/trabajos/crm.webp';
-import formCompras from '../img/trabajos/formCompras.webp';
+import formCompras from '../img/trabajos/formularioCompras.webp';
 import gastosReact from '../img/trabajos/gastosReact.webp';
 import notasReact from '../img/trabajos/notasReact.webp';
 import piedra from '../img/trabajos/piedra.webp';
