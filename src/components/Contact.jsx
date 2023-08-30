@@ -3,10 +3,11 @@ import styles from './sass/Contact.module.sass';
 
 const Contact = () => {
   return (
-    <Slide direction="right">
+    <Slide direction="right" triggerOnce>
       <form
         method="post"
         data-netlify="true"
+        data-netlify-recaptcha="true"
         className={styles.form}
         action="/contact"
         id="Contact"

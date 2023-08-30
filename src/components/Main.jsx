@@ -20,7 +20,7 @@ const Projects = () => {
       >
         <h2>Proyectos</h2>
         <section>
-          <Bounce cascade damping={0.2} duration={800} triggerOnce>
+          <Bounce cascade damping={0.04} duration={800} triggerOnce>
             {proyectos.map((proyecto) => (
               <Project
                 key={proyecto.id}
