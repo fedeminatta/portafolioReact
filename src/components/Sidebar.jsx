@@ -7,7 +7,7 @@ import { Slide } from 'react-awesome-reveal';
 const Sidebar = () => {
   return (
     <aside className={styles.aside}>
-      <Slide cascade damping={0.2}>
+      <Slide cascade direction="right" damping={0.2}>
         <a
           href="https://www.linkedin.com/in/federico-minatta-579a6b227/"
           target="_blank"
