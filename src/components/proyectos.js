@@ -4,7 +4,7 @@ import juegoMemoria from '../img/trabajos/juegoMemoria.webp';
 import ahorcado from '../img/trabajos/ahorcado.webp';
 import autos from '../img/trabajos/autos.webp';
 import carritoComidas from '../img/trabajos/carritoComidas.webp';
-import CRM from '../img/trabajos/CRM.webp';
+import crmImg from '../img/trabajos/crmImg.webp';
 import formCompras from '../img/trabajos/formularioCompras.webp';
 import gastosReact from '../img/trabajos/gastosReact.webp';
 import notasReact from '../img/trabajos/notasReact.webp';
@@ -68,7 +68,7 @@ const proyectos = [
     id: nanoid(),
     titulo: 'CRM',
     descripcion: 'HTML - CSS - JavaScript - Tailwind',
-    img: CRM,
+    img: crmImg,
     url: 'https://crm-mf.netlify.app/',
   },
 
