@@ -6,7 +6,7 @@ import autos from '../img/trabajos/autos.webp';
 import carritoComidas from '../img/trabajos/carritoComidas.webp';
 import crmImg from '../img/trabajos/crmImg.webp';
 import formCompras from '../img/trabajos/formularioCompras.webp';
-import gastosReact from '../img/trabajos/gastosReact.webp';
+import reactGastos from '../img/trabajos/reactGastos.webp';
 import notasReact from '../img/trabajos/notasReact.webp';
 import piedra from '../img/trabajos/piedra.webp';
 import restaurant from '../img/trabajos/restaurant.webp';
@@ -46,7 +46,7 @@ const proyectos = [
     id: nanoid(),
     titulo: 'Gasto Semanal React',
     descripcion: 'HTML - CSS - React - JavaScript',
-    img: gastosReact,
+    img: reactGastos,
     url: 'https://gastos-mf.netlify.app/',
   },
   {
