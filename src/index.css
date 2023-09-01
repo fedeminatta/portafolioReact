@@ -67,3 +67,14 @@ body {
   background-color: #002e39;
   color: #f8f8f8;
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #1fd2ff;
+  background: #002e39;
+}
+
+::selection {
+  color: #1fd2ff;
+  background: #002e39;
+}
