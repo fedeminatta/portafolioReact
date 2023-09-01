@@ -19,12 +19,13 @@ export default function App() {
         innerStyle={{
           background: '#34d7f7',
           zIndex: '12111',
+          mixBlendMode: 'difference',
         }}
         outerStyle={{
           border: 'solid 3px #34d7f7',
           boxShadow: '0 0 15px #34d7f7',
-          mixBlendMode: 'difference',
           zIndex: '12111',
+          mixBlendMode: 'difference',
         }}
       />
       <Header />
