@@ -24,6 +24,7 @@ export default function App() {
           border: 'solid 3px #34d7f7',
           boxShadow: '0 0 15px #34d7f7',
           mixBlendMode: 'difference',
+          zIndex: '12111',
         }}
       />
       <Header />
