@@ -12,6 +12,7 @@ import piedra from '../img/trabajos/piedra.webp';
 import restaurant from '../img/trabajos/restaurant.webp';
 import veterinariaJS from '../img/trabajos/veterinariaJS.webp';
 import veterinariaReact from '../img/trabajos/veterinariaReact.webp';
+import horarios from '../img/trabajos/horarios.webp'
 // import flexbox from '../img/trabajos/flexbox.webp';
 // import cryptos from '../img/trabajos/cryptos.webp';
 // import gastoSemanal from '../img/trabajos/gasto-semanal.webp';
@@ -21,6 +22,13 @@ import veterinariaReact from '../img/trabajos/veterinariaReact.webp';
 // img
 
 const proyectos = [
+  {
+    id: nanoid(),
+    titulo: 'Horario Plan',
+    descripcion: 'HTML - Next JS - React - SASS - JavaScript',
+    img: horarios,
+    url: 'https://horarioplan.vercel.app/',
+  },
   {
     id: nanoid(),
     titulo: 'Juego de Memoria',
