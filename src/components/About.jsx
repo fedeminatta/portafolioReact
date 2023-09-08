@@ -3,8 +3,6 @@ import styles from './sass/About.module.sass';
 
 const About = () => {
   const descripcion = `
-  ¡Claro, con gusto! Aquí tienes el texto mejorado:
-  
   ¡Saludos! 👋
   
   Soy Federico Minatta, un Desarrollador Front End con una inclinación autodidacta hacia el aprendizaje. 
