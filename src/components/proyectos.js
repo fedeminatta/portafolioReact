@@ -13,6 +13,7 @@ import restaurant from '../img/trabajos/restaurant.webp';
 import veterinariaJS from '../img/trabajos/veterinariaJS.webp';
 import veterinariaReact from '../img/trabajos/veterinariaReact.webp';
 import horarios from '../img/trabajos/horarios.webp'
+import postres from '../img/trabajos/postresTemplate.webp'
 // import flexbox from '../img/trabajos/flexbox.webp';
 // import cryptos from '../img/trabajos/cryptos.webp';
 // import gastoSemanal from '../img/trabajos/gasto-semanal.webp';
@@ -28,6 +29,13 @@ const proyectos = [
     descripcion: 'HTML - Next JS - React - SASS - JavaScript',
     img: horarios,
     url: 'https://horarioplan.vercel.app/',
+  },
+  {
+    id: nanoid(),
+    titulo: 'Postres',
+    descripcion: 'HTML - Vite - React - SASS - JavaScript',
+    img: postres,
+    url: 'https://postres-template.vercel.app/',
   },
   {
     id: nanoid(),
