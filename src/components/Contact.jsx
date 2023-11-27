@@ -10,7 +10,6 @@ const Contact = () => {
                 id="Contact"
                 name="contact"
             >
-                <input type="hidden" name="form-name" value="contact" />
                 <fieldset>
                     <legend>Asunto</legend>
                     <input required type="text" name="asunto" />
