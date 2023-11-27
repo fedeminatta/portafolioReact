@@ -1,8 +1,9 @@
 import { Slide } from 'react-awesome-reveal';
 import styles from './sass/About.module.sass';
+import cv from './cv-federico-minatta.docx.pdf';
 
 const About = () => {
-  const descripcion = `
+    const descripcion = `
   ¡Saludos! 👋
   
   Soy Federico Minatta, un Desarrollador Front End con una inclinación autodidacta hacia el aprendizaje. 
@@ -10,15 +11,20 @@ const About = () => {
   
   Cada día, busco desafiarme a mí mismo para adquirir nuevos conocimientos. 
   Mi compromiso con el crecimiento me impulsa a seguir capacitándome en todos los ámbitos que abarco, con el objetivo de perfeccionarme como desarrollador y generar experiencias web aún más impresionantes. 🚀`;
-  return (
-    <section className={styles.section} id="About">
-      <Slide direction="up" triggerOnce>
-        <article>
-          <h3>Sobre Mi</h3>
-          <p>{descripcion}</p>
-        </article>
-      </Slide>
-    </section>
-  );
+    return (
+        <section className={styles.section} id="About">
+            <Slide direction="up" triggerOnce>
+                <article>
+                    <section>
+                        <h3>Sobre Mi</h3>
+                        <a href={cv} download={true}>
+                            Descargar CV
+                        </a>
+                    </section>
+                    <p>{descripcion}</p>
+                </article>
+            </Slide>
+        </section>
+    );
 };
 export default About;
