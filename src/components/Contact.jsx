@@ -5,11 +5,13 @@ const Contact = () => {
     return (
         <Slide direction="right" triggerOnce>
             <form
+                method="post"
                 data-netlify="true"
                 className={styles.form}
                 id="Contact"
                 name="contact"
             >
+                <input type="hidden" name="form-name" value="contact" />
                 <fieldset>
                     <legend>Asunto</legend>
                     <input required type="text" name="asunto" />
