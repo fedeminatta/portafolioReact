@@ -45,11 +45,11 @@ export default function App() {
                         }}
                     /> */}
                     <Header />
-                    <Sidebar />
                     <About />
                     <Bg />
                     <Tools />
                     <Contact />
+                    <Sidebar />
                 </div>
             )}
         </>
