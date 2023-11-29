@@ -7,6 +7,7 @@
     align-content: center
     width: 90%
     margin: 0 auto
+
     article
         border-radius: 10px
         background: $bg-secondary
@@ -14,11 +15,14 @@
         display: inline-block
         p
             max-width: 65ch
-            font-weight: 500
+            font-weight: 600
+            line-height: 1.4rem
             white-space: pre-line
+            color: #ffffff
+
         section
             h3
-                color: $text-primary
+                color: $text-secondary
                 font-size: 1.8rem
                 margin-bottom: 15px
                 text-align: center
@@ -38,3 +42,12 @@
                 right: 15px
                 &:hover
                     background: $bg-primary
+
+@media screen and (max-width: 670px)
+    .section
+        article
+            section
+                a
+                    float: right
+                    font-size: 1rem
+                    position: static
