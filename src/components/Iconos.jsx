@@ -84,7 +84,7 @@ const Iconos = ({ title }) => {
                     boxShadow: `0px 0px 8px ${color}`,
                 }}
             >
-                <img className={styles.img} src={icon} alt="" />
+                <img className={styles.img} src={icon} alt={title} />
                 <p>{title}</p>
             </div>
         </>
