@@ -4,7 +4,7 @@ import Bg from './components/Bg';
 import Tools from './components/Tools';
 import Contact from './components/Contact';
 import Sidebar from './components/Sidebar';
-import AnimatedCursor from 'react-animated-cursor';
+// import AnimatedCursor from 'react-animated-cursor';
 import { useEffect, useState } from 'react';
 import styles from './components/sass/App.module.sass';
 
@@ -14,7 +14,7 @@ export default function App() {
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(false);
-        }, 500);
+        }, 300);
     }, []);
 
     return (
@@ -25,7 +25,7 @@ export default function App() {
                 </div>
             ) : (
                 <div className="App">
-                    <AnimatedCursor
+                    {/* <AnimatedCursor
                         innerSize={20}
                         outerSize={65}
                         innerScale={1}
@@ -43,7 +43,7 @@ export default function App() {
                             zIndex: '12111',
                             // mixBlendMode: 'difference',
                         }}
-                    />
+                    /> */}
                     <Header />
                     <Sidebar />
                     <About />

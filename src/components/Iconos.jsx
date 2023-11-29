@@ -81,6 +81,7 @@ const Iconos = ({ title }) => {
                 style={{
                     backgroundColor: color,
                     color: textColor,
+                    boxShadow: `0px 0px 8px ${color}`,
                 }}
             >
                 <img className={styles.img} src={icon} alt="" />
