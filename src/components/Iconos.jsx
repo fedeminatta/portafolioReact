@@ -9,7 +9,7 @@ import sassIcon from '@img/tecnologias/sass.png';
 import jsIcon from '@img/tecnologias/js.png';
 import tailwindIcon from '@img/tecnologias/tailwind.png';
 import stripeIcon from '@img/tecnologias/stripe.svg';
-import strapiIcon from '@img/tecnologias/strapi.avif';
+import strapiIcon from '@img/tecnologias/strapi.png';
 import jqueryIcon from '@img/tecnologias/jquery.svg';
 
 const Iconos = ({ title }) => {
