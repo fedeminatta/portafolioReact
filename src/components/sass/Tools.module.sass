@@ -1,70 +1,72 @@
 @import './variables.sass'
 
 .section
-    display: flex
-    flex-direction: column
-    padding: 30px
-    padding-top: 0
-    width: 90%
-    margin: 0 auto
-    h3
-        color: $text-secondary
-        font-size: 1.8rem
-        margin-block: 35px
-        text-align: center
+  display: flex
+  flex-direction: column
+  padding: 30px
+  padding-top: 0
+  width: 90%
+  margin: 0 auto
+  h3
+    color: $text-secondary
+    font-size: 1.8rem
+    margin-block: 35px
+    text-align: center
 
 .article
-    display: flex
-    flex-flow: row wrap
-    justify-content: center
-    align-items: center
-    gap: 30px
-    img
-        width: 110px
+  display: flex
+  flex-flow: row wrap
+  justify-content: center
+  align-items: center
+  gap: 30px
+  img
+    width: 110px
 @media screen and (max-width: 370px)
-    .article
-        justify-content: start
-        img
-            width: 60px
+  .article
+    justify-content: start
+    img
+      width: 60px
 
 .item
-    transition: transform .3s
-    cursor: pointer
-    display: flex
-    flex-direction: column
-    align-items: center
-    &:hover
-        transform: scale(1.1)
+  transition: transform .3s
+  cursor: pointer
+  display: flex
+  flex-direction: column
+  align-items: center
+  &:hover
+    transform: scale(1.1)
 
 .item
-    p
-        margin-top: 15px
-        color: $text-secondary
-        font-weight: 600
-        text-align: center
+  p
+    margin-top: 15px
+    color: $text-secondary
+    font-weight: 600
+    text-align: center
 
 .react
-    filter: drop-shadow(-2px 2px 2px #0254e3)
+  filter: drop-shadow(-2px 2px 2px #0254e3)
+.strapi
+  filter: drop-shadow(-2px 2px 2px #3634b9)
 .vite
-    filter: drop-shadow(-2px 2px 2px #e302d4)
+  filter: drop-shadow(-2px 2px 2px #e302d4)
 .javascript
-    filter: drop-shadow(-2px 2px 2px #e3bd02)
+  filter: drop-shadow(-2px 2px 2px #e3bd02)
 .tailwind
-    filter: drop-shadow(-2px 2px 2px #0249e3)
+  filter: drop-shadow(-2px 2px 2px #0249e3)
 .sass
-    filter: drop-shadow(-2px 2px 2px #e30289)
+  filter: drop-shadow(-2px 2px 2px #e30289)
 .git
-    filter: drop-shadow(-2px 2px 2px #e31102)
+  filter: drop-shadow(-2px 2px 2px #e31102)
 
 .html
-    filter: drop-shadow(-2px 2px 2px #e30d02)
+  filter: drop-shadow(-2px 2px 2px #e30d02)
 .css
-    filter: drop-shadow(-2px 2px 2px #012ec2)
+  filter: drop-shadow(-2px 2px 2px #012ec2)
 .nextjs
-    filter: drop-shadow(-2px 2px 2px #000000)
+  filter: drop-shadow(-2px 2px 2px #000000)
 .typescript
-    filter: drop-shadow(-2px 2px 2px #000000)
+  filter: drop-shadow(-2px 2px 2px #000000)
 
 @media screen and (max-width: 900px)
-    .section
-        width: 100%
+  .section
+    width: 100%

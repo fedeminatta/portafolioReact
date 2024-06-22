@@ -12,6 +12,7 @@ import cssImg from '../img/tecnologias/css.png';
 import nextjsImg from '../img/tecnologias/nextjs.svg';
 import tsImg from '../img/tecnologias/ts.svg';
 import astroImg from '../img/tecnologias/astro.png';
+import strapiImg from '../img/tecnologias/strapi.png';
 import { Zoom } from 'react-awesome-reveal';
 //
 
@@ -32,6 +33,16 @@ const Tools = () => {
 							<img className={styles.git} src={astroImg} alt='Astro icon' />
 						</a>
 						<p>Astro</p>
+					</div>
+					<div className={styles.item}>
+						<a href='https://strapi.io/' target='_blank' rel='noreferrer'>
+							<img
+								className={styles.strapi}
+								src={strapiImg}
+								alt='Strapi icon'
+							/>
+						</a>
+						<p>Strapi</p>
 					</div>
 					<div className={styles.item}>
 						<a href='https://vitejs.dev/' target='_blank' rel='noreferrer'>
