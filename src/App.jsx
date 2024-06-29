@@ -7,12 +7,13 @@ import Sidebar from './components/Sidebar';
 import AnimatedCursor from 'react-animated-cursor';
 
 export default function App() {
+	const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 	return (
 		<>
 			<div className='App'>
-				{
+				{!isMobile && (
 					<AnimatedCursor
-						trailingSpeed={1}
+						trailingSpeed={3}
 						showSystemCursor={false}
 						innerSize={20}
 						outerSize={65}
@@ -32,7 +33,7 @@ export default function App() {
 							mixBlendMode: 'difference',
 						}}
 					/>
-				}
+				)}
 				<Header />
 				<About />
 				<Bg />
