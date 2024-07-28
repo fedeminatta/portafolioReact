@@ -1,11 +1,10 @@
 import styles from './sass/Bg.module.sass';
-import Main from './Main';
 
-const Bg = () => {
-  return (
-    <section className={styles.bg}>
-      <Main />
-    </section>
-  );
+const Bg = ({ children, style }) => {
+	return (
+		<section className={styles.bg} style={style}>
+			{children}
+		</section>
+	);
 };
 export default Bg;

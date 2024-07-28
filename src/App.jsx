@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import About from './components/About';
 import Bg from './components/Bg';
+import Main from './components/Main';
 import Tools from './components/Tools';
 import Contact from './components/Contact';
 import Sidebar from './components/Sidebar';
@@ -34,9 +35,13 @@ export default function App() {
 						}}
 					/>
 				)}
+
 				<Header />
+
 				<About />
-				<Bg />
+				<Bg>
+					<Main />
+				</Bg>
 				<Tools />
 				<Contact />
 				<Sidebar />

@@ -22,7 +22,7 @@
             background: $bg-secondary
 
 .header
-    background: $bg-secondary
+    background: none
     display: flex
     flex-flow: row wrap
     justify-content: space-between
@@ -30,7 +30,8 @@
     padding: 50px
     padding-top: 100px
     overflow: hidden
-    width: 96%
+    width: 100%
+    border-radius: 10px
     img
         width: 250px
         margin: 0
@@ -54,10 +55,6 @@
     h2
         font-size: 1.8rem
         color: $text-secondary
-
-@media screen and (max-width: 900px)
-    .header
-        width: 100%
 
 @media screen and (max-width: 465px)
     .nav
