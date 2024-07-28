@@ -15,7 +15,8 @@ import veterinariaReact from '../img/trabajos/veterinariaReact.webp';
 import horarios from '../img/trabajos/horarios.webp';
 import postres from '../img/trabajos/postresTemplate.webp';
 import ecommerce from '../img/trabajos/ecommerce.png';
-import arquitectura from '../img/trabajos/arquitectura.png';
+import arquitectura from '../img/trabajos/arquitectura2.png';
+import ytSing from '../img/trabajos/ytSing.png';
 const proyectos = [
 	{
 		id: nanoid(),
@@ -32,6 +33,22 @@ const proyectos = [
 		],
 		img: ecommerce,
 		url: 'https://ecommerce-demo-federico-minatta.vercel.app/',
+	},
+	{
+		id: nanoid(),
+		titulo: 'YT Sing',
+		descripcion: [
+			'Next JS',
+			'React',
+			'TypeScript',
+			'Tailwind',
+			'JavaScript',
+			'framer motion',
+			'CSS',
+			'HTML',
+		],
+		img: ytSing,
+		url: 'https://yt-sing.vercel.app/',
 	},
 	{
 		id: nanoid(),

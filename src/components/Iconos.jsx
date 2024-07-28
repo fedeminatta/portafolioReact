@@ -12,6 +12,8 @@ import stripeIcon from '@img/tecnologias/stripe.svg';
 import strapiIcon from '@img/tecnologias/strapi.png';
 import jqueryIcon from '@img/tecnologias/jquery.svg';
 import astroIcon from '@img/tecnologias/astro.png';
+import tsIcon from '@img/tecnologias/ts.svg';
+import framerMotion from '../img/tecnologias/framerMotion.svg';
 
 const Iconos = ({ title }) => {
 	let color;
@@ -61,6 +63,16 @@ const Iconos = ({ title }) => {
 			color = '#000000';
 			icon = jsIcon;
 			textColor = '#fff';
+			break;
+		case 'typescript':
+			color = '#fff';
+			icon = tsIcon;
+			textColor = '#000';
+			break;
+		case 'framer motion':
+			color = '#fff';
+			icon = framerMotion;
+			textColor = '#000';
 			break;
 		case 'tailwind':
 			color = '#fff';
