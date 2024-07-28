@@ -13,6 +13,8 @@ import nextjsImg from '../img/tecnologias/nextjs.svg';
 import tsImg from '../img/tecnologias/ts.svg';
 import astroImg from '../img/tecnologias/astro.png';
 import strapiImg from '../img/tecnologias/strapi.png';
+import framerMotion from '../img/tecnologias/framerMotion.svg';
+
 import { Zoom } from 'react-awesome-reveal';
 //
 
@@ -87,6 +89,20 @@ const Tools = () => {
 							/>
 						</a>
 						<p>TypeScript</p>
+					</div>
+					<div className={styles.item}>
+						<a
+							href='https://www.framer.com/motion/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<img
+								className={styles.html}
+								src={framerMotion}
+								alt='framer motion icon'
+							/>
+						</a>
+						<p>Framer Motion</p>
 					</div>
 					<div className={styles.item}>
 						<a href='https://tailwindcss.com/' target='_blank' rel='noreferrer'>

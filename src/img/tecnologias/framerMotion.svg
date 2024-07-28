@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 21" role="presentation"><path d="M0 0h14v7H7zm0 7h7l7 7H7v7l-7-7z" fill="currentColor"/></svg>
+<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path stroke="null" fill="currentColor" d="m26.37629,-0.70619l97.24742,0l0,50.12715l-48.62371,0l-48.62371,-50.12715zm0,50.12715l48.62371,0l48.62371,50.12715l-48.62371,0l0,50.12715l-48.62371,-50.12715l0,-50.12715z"/>
+ </g>
+
+</svg>
