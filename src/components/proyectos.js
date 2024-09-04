@@ -17,6 +17,7 @@ import postres from '../img/trabajos/postresTemplate.webp';
 import ecommerce from '../img/trabajos/ecommerce.png';
 import arquitectura from '../img/trabajos/arquitectura2.png';
 import ytSing from '../img/trabajos/ytSing.png';
+import gradient from '../img/trabajos/gradient.png';
 const proyectos = [
 	{
 		id: nanoid(),
@@ -49,6 +50,13 @@ const proyectos = [
 		],
 		img: ytSing,
 		url: 'https://yt-sing.vercel.app/',
+	},
+	{
+		id: nanoid(),
+		titulo: 'Gradient-React component',
+		descripcion: ['React', 'TypeScript', 'JavaScript', 'sass', 'CSS', 'HTML'],
+		img: gradient,
+		url: 'https://gradient-react-web.vercel.app/',
 	},
 	{
 		id: nanoid(),
