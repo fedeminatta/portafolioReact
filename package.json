@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "nanoid": "^4.0.2",
+    "portfolio": "file:",
     "react": "^18.2.0",
     "react-animated-cursor": "^2.8.1",
     "react-awesome-reveal": "^4.2.5",

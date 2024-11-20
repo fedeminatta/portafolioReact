@@ -1,6 +1,6 @@
 import { Slide } from 'react-awesome-reveal';
 import styles from './sass/About.module.sass';
-import cv from './cv-federico-minatta.docx.pdf';
+import cv from './cv-federico-minatta.pdf';
 
 const About = () => {
 	const descripcion = `
