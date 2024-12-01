@@ -18,10 +18,26 @@ import ecommerce from '../img/trabajos/ecommerce.png';
 import arquitectura from '../img/trabajos/arquitectura2.png';
 import ytSing from '../img/trabajos/ytSing.png';
 import gradient from '../img/trabajos/gradient.png';
+import impOliberti from '../img/trabajos/impOliberti.png';
 const proyectos = [
 	{
 		id: nanoid(),
-		titulo: 'Ecommerce',
+		titulo: 'Importaciones Oliberti',
+		descripcion: [
+			'Next JS',
+			'React',
+			'JavaScript',
+			'Tailwind',
+			'framer motion',
+			'CSS',
+			'HTML',
+		],
+		img: impOliberti,
+		url: 'https://importaciones-oliberti.vercel.app/',
+	},
+	{
+		id: nanoid(),
+		titulo: 'Ecommerce (BD pausada)',
 		descripcion: [
 			'Next JS',
 			'React',
