@@ -14,24 +14,21 @@ export default function App() {
 			<div className='App'>
 				{!isMobile && (
 					<AnimatedCursor
-						trailingSpeed={3}
+						trailingSpeed={6} // Mayor velocidad para menos cálculos intermedios
 						showSystemCursor={false}
-						innerSize={20}
-						outerSize={65}
-						innerScale={1}
-						outerScale={1.8}
+						innerSize={12} // Tamaño más pequeño para menos impacto visual
+						outerSize={40} // Reducido para disminuir el peso del efecto
+						innerScale={0.9} // Menor escala para suavizar animación
+						outerScale={1.5}
 						outerAlpha={0}
-						hasBlendMode={true}
+						hasBlendMode={false} // Desactivado para mejor rendimiento
 						innerStyle={{
 							background: '#34d7f7',
-							zIndex: '12111',
-							// mixBlendMode: 'difference',
+							zIndex: 9999, // Menos exagerado
 						}}
 						outerStyle={{
-							border: 'solid 3px #34d7f7',
-							// boxShadow: '0 0 15px #34d7f7',
-							zIndex: '12111',
-							mixBlendMode: 'difference',
+							border: 'solid 2px #34d7f7', // Menos grueso para menos render cost
+							zIndex: 9999,
 						}}
 					/>
 				)}
