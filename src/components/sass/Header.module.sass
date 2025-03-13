@@ -1,73 +1,73 @@
 @import './variables.sass'
 
 .nav
-    position: fixed
-    top: 0
-    left: 0
-    padding: 15px 0
-    background: $bg-primary
-    display: flex
-    width: 100%
-    justify-content: space-evenly
-    z-index: 10000
-    a
-        text-decoration: none
-        color: $text-primary
-        padding: 10px 26px
-        border-radius: 30px
-        transition: background .3s
-        font-weight: 900
-        font-size: 1.1rem
-        &:hover
-            background: $bg-secondary
+  position: fixed
+  top: 0
+  left: 0
+  padding: 15px 0
+  background: $bg-primary
+  display: flex
+  width: 100%
+  justify-content: space-evenly
+  z-index: 100
+  a
+    text-decoration: none
+    color: $text-primary
+    padding: 10px 26px
+    border-radius: 30px
+    transition: background .3s
+    font-weight: 900
+    font-size: 1.1rem
+    &:hover
+      background: $bg-secondary
 
 .header
-    background: none
-    display: flex
-    flex-flow: row wrap
-    justify-content: space-between
-    align-items: center
-    padding: 50px
-    padding-top: 100px
-    overflow: hidden
-    width: 100%
-    border-radius: 10px
-    img
-        width: 250px
-        margin: 0
-        padding: 0
-        right: 2px
-        margin-right: 50px
-        user-select: none
-        border-radius: 50%
-        filter: sepia(100%) hue-rotate(170deg) saturate(260%) brightness(90%)
+  background: none
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-between
+  align-items: center
+  padding: 50px
+  padding-top: 100px
+  overflow: hidden
+  width: 100%
+  border-radius: 10px
+  img
+    width: 250px
+    margin: 0
+    padding: 0
+    right: 2px
+    margin-right: 50px
+    user-select: none
+    border-radius: 50%
+    filter: sepia(100%) hue-rotate(170deg) saturate(260%) brightness(90%)
 
 .section
-    display: flex
-    flex-flow: column wrap
-    h1
-        color: $text-primary
-        font-weight: 900
-        letter-spacing: 2px
-        font-size: 4.2rem
-        margin: 0
-        word-break: break-word
+  display: flex
+  flex-flow: column wrap
+  h1
+    color: $text-primary
+    font-weight: 900
+    letter-spacing: 2px
+    font-size: 4.2rem
+    margin: 0
+    word-break: break-word
     h2
-        font-size: 1.8rem
-        color: $text-secondary
+      font-size: 1.8rem
+      color: $text-secondary
 
 @media screen and (max-width: 465px)
-    .nav
-        a
-            padding: 10px 8px
-            font-size: .9rem
+  .nav
+    a
+      padding: 10px 8px
+      font-size: .9rem
 
     .header
-        img
-            width: 200px
+      img
+        width: 200px
 
     .section
-        h1
-            font-size: 2rem
+      h1
+        font-size: 2rem
         h2
-            font-size: 1.2rem
+          font-size: 1.2rem
