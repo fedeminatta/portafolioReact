@@ -14,6 +14,7 @@ import jqueryIcon from '@img/tecnologias/jquery.svg';
 import astroIcon from '@img/tecnologias/astro.png';
 import tsIcon from '@img/tecnologias/ts.svg';
 import framerMotion from '../img/tecnologias/framerMotion.svg';
+import supabaseIcon from '../img/tecnologias/supabase.png';
 
 const Iconos = ({ title }) => {
 	let color;
@@ -93,6 +94,11 @@ const Iconos = ({ title }) => {
 			color = '#fff';
 			icon = astroIcon;
 			textColor = '#000';
+			break;
+		case 'supabase':
+			color = '#000';
+			icon = supabaseIcon;
+			textColor = '#fff';
 			break;
 		default:
 			break;

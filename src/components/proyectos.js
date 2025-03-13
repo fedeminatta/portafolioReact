@@ -19,7 +19,24 @@ import arquitectura from '../img/trabajos/arquitectura2.png';
 import ytSing from '../img/trabajos/ytSing.png';
 import gradient from '../img/trabajos/gradient.png';
 import impOliberti from '../img/trabajos/impOliberti.png';
+import ecommerceBeReal from '../img/trabajos/ecommerceBeReal.png';
 const proyectos = [
+	{
+		id: nanoid(),
+		titulo: 'Ecommerce para BeRealWeb',
+		descripcion: [
+			'Next JS',
+			'Supabase',
+			'React',
+			'JavaScript',
+			'Tailwind',
+			'framer motion',
+			'CSS',
+			'HTML',
+		],
+		img: ecommerceBeReal,
+		url: 'https://ecommerce-demo-fm.vercel.app/',
+	},
 	{
 		id: nanoid(),
 		titulo: 'Importaciones Oliberti',
