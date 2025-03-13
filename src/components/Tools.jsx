@@ -14,6 +14,7 @@ import tsImg from '../img/tecnologias/ts.svg';
 import astroImg from '../img/tecnologias/astro.png';
 import strapiImg from '../img/tecnologias/strapi.png';
 import framerMotion from '../img/tecnologias/framerMotion.svg';
+import supabaseIcon from '../img/tecnologias/supabase.png';
 
 import { Zoom } from 'react-awesome-reveal';
 //
@@ -29,6 +30,16 @@ const Tools = () => {
 							<img className={styles.react} src={reactImg} alt='React icon' />
 						</a>
 						<p>React</p>
+					</div>
+					<div className={styles.item}>
+						<a href='https://supabase.com/' target='_blank' rel='noreferrer'>
+							<img
+								className={styles.supabase}
+								src={supabaseIcon}
+								alt='Supabase icon'
+							/>
+						</a>
+						<p>Supabase</p>
 					</div>
 					<div className={styles.item}>
 						<a href='https://astro.build/' target='_blank' rel='noreferrer'>
