@@ -27,6 +27,7 @@ const proyectos = [
 		descripcion: [
 			'Next JS',
 			'Supabase',
+			'TypeScript',
 			'React',
 			'JavaScript',
 			'Tailwind',
@@ -35,7 +36,7 @@ const proyectos = [
 			'HTML',
 		],
 		img: ecommerceBeReal,
-		url: 'https://ecommerce-demo-fm.vercel.app/',
+		url: 'https://www.ticoil.com.ar',
 	},
 	{
 		id: nanoid(),
