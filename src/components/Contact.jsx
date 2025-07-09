@@ -3,7 +3,7 @@ import styles from './sass/Contact.module.sass';
 
 const Contact = () => {
 	return (
-		<Slide direction='right' triggerOnce>
+		<Slide direction='right' triggerOnce style={{ overflowX: 'hidden' }}>
 			<form
 				method='post'
 				data-netlify='true'

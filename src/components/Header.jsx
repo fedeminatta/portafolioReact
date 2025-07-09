@@ -22,8 +22,7 @@ const Header = () => {
 						</Slide>
 					</section>
 					<Slide direction='right' triggerOnce>
-						{' '}
-						<img src={personImg} alt='' />{' '}
+						<img src={personImg} alt='profile img' />
 					</Slide>
 				</header>
 			</Bg>

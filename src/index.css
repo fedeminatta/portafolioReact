@@ -69,6 +69,10 @@ body {
 	color: #f8f8f8;
 }
 
+.app {
+	overflow-x: hidden;
+}
+
 ::-moz-selection {
 	/* Code for Firefox */
 	color: #1fd2ff;
